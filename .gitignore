@@ -1,0 +1,16 @@
+## .gitignore
+
+# ignore all
+*
+
+# allow directory
+!*/
+
+# allow files with extension
+!*.*
+
+# allow files
+!.gitignore
+
+# ignore codeforces .txt
+codeforces/*.txt
