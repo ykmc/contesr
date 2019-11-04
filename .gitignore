@@ -17,3 +17,4 @@ codeforces/*.txt
 
 # ignore local tools
 git.py
+tmpl.rs
