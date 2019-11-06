@@ -15,6 +15,5 @@
 # ignore codeforces .txt
 codeforces/*.txt
 
-# ignore local tools
-git.py
-tmpl.rs
+# ignore local files
+local/
