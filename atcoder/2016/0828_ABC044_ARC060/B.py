@@ -3,13 +3,14 @@ import sys
 input = sys.stdin.readline
 
 # main
-S = input()
+from collections import Counter
+W = input().rstrip()
 
-ans = ""
-for s in S:
-    if s=="B":
-        ans = ans[:-1]
-    else:
-        ans += s
+C = Counter(W)
+ans = "Yes"
+for v in C.values():
+    if v%2 != 0:
+        ans = "No"
+        break
 
 print(ans)
