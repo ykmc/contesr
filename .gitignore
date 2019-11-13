@@ -17,3 +17,6 @@ codeforces/*.txt
 
 # ignore local files
 local/
+
+# ignore kakecoder
+kakecoder
